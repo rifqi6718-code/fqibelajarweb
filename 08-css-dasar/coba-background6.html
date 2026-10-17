@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Coba Background Attachment</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eee;
+        height: 2000px;
+      }
+      .kotak {
+        width: 400px;
+        height: 300px;
+        border: 10px solid #333;
+        margin: auto;
+        background-image: url(img/alina-chernovolova-4i6e9fEifGg-unsplash.jpg);
+        background-size: 90px;
+        background-repeat: round;
+        overflow: auto;
+        background-attachment: fixed;
+      }
+      .content {
+        color: #fff;
+        line-height: 2;
+        background-color: rgb(0 0 0 / 70%);
+      }
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Coba Background Attachment</h1>
+    <p>
+      Background Attachment adalah properti CSS yang digunakan untuk menentukan
+      bagaimana gambar latar belakang (background image) berperilaku saat
+      halaman di-scroll.
+    </p>
+    <div class="kotak">
+      <div class="content">
+        <p>
+          Background Attachment adalah properti CSS yang digunakan untuk
+          mengatur perilaku gambar latar belakang saat halaman atau elemen
+          digulir
+        </p>
+        <p>
+          Properti ini dapat menggunakan nilai seperti scroll, fixed, dan local
+          untuk menghasilkan efek visual yang berbeda. Dengan memanfaatkan
+          background-attachment, pengembang dapat menciptakan tampilan website
+          yang lebih menarik, interaktif, modern, serta meningkatkan pengalaman
+          pengguna secara keseluruhan.
+        </p>
+        <p>
+          Selain mempercantik desain, properti ini juga sering digunakan untuk
+          membuat efek parallax, yaitu efek di mana gambar latar bergerak dengan
+          kecepatan berbeda dibandingkan konten di depannya.
+        </p>
+        <p>
+          Teknik ini dapat memberikan kesan kedalaman dan animasi sederhana
+          tanpa memerlukan JavaScript, sehingga halaman web tetap ringan dan
+          responsif saat diakses oleh pengguna.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
